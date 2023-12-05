@@ -1,0 +1,195 @@
+/* General styles */
+
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header styles */
+
+header {
+    background-color: #222;
+    padding: 20px 0;
+}
+
+.logo {
+    display: inline-block;
+    margin-right: 20px;
+   
+}
+
+.logo img {
+    height: 150px;
+    width: 290px;
+
+}
+
+.main-nav {
+    display: inline-block;
+    float: right;
+}
+
+.main-nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.main-nav li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.main-nav li a {
+    padding: 10px 15px;
+    background-color: #333;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.main-nav li a:hover {
+    background-color: #007bff;
+}
+footer {
+    background-color: #f5eeee;
+    padding: 30px 0;
+}
+
+.company-logo {
+    float: left;
+    margin-right: 50px;
+}
+
+.contact-info {
+    float: left;
+}
+
+.help-and-copyright {
+    float: left;
+}
+
+.copyright {
+    clear: both;
+    text-align:right;
+    margin-top: 10px;
+}
+
+.btn {
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+
+.btn-outline-primary {
+    background-color: transparent;
+    color: #007bff;
+    border: 1px solid #007bff;
+}
+
+/* Hero section styles */
+
+.hero-section {
+    background-color: #fafafa;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.hero-section h1 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.hero-section p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.hero-section .btn {
+    margin-top: 20px;
+}
+
+/* Features section styles */
+
+.features-section {
+    padding: 50px 0;
+}
+
+.features-section h2 {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 30px
+}
+.test-series-buttons {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .mock-interviews-buttons {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .ebooks-buttons {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .btn-medium {
+    background-color: #007bff;
+    color: white;
+  }
+  .column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+  .button-overlay {
+    position: relative;
+    display: inline-block;
+}
+.button-overlay button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+div.b {
+    text-align: left;
+  }
+  /*body {
+    background-image: url('bck.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  
